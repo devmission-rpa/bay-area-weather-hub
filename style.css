@@ -1,0 +1,30 @@
+/* General background color */
+body {
+  background-color: #e6f7ff; /* Light blue */
+}
+
+/* Center button alignment for welcome page */
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+/* Align images inside the cards */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Adjust margin for the "View Survival Kits" button */
+.view-survival-kits-btn {
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  width: 100vw;
+  height: 50vh;
+  object-fit: fill;
+}
